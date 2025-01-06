@@ -1547,7 +1547,7 @@ StScrollBar {
   font-weight: 800;
   font-size: 1.364em; }
 
-.workspace-switch-osd, .media-keys-osd, .message-dialog-content .message-dialog-title.leightweight {
+.workspace-switch-osd, .media-keys-osd, .message-dialog-content .message-dialog-title.lightweight {
   font-weight: 700;
   font-size: 1.182em; }
 
@@ -1583,7 +1583,7 @@ StScrollBar {
 
 .dialog .dialog-button, .dialog .dialog-button:destructive-action, .dialog .dialog-button:default {
   font-weight: bold;
-  padding: 12px;
+  padding: 11px;
   border-radius: 18px;
   border: 1px solid #b0b0b0;
   color: #303030;

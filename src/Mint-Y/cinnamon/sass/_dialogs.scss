@@ -131,7 +131,7 @@ $osd_radius: 20px;
 
 %dialog_button {
   font-weight: bold;
-  padding: $base_padding * 2;
+  padding: $base_padding * 2 - 1;
   border-radius: $dialog_radius;
 
   @include styled_button(normal);
@@ -253,7 +253,7 @@ $osd_radius: 20px;
     text-align: center;
     @extend %title_2;
 
-    &.leightweight { @extend %title_4; }
+    &.lightweight { @extend %title_4; }
   }
 
   .message-dialog-description { text-align: center; }
