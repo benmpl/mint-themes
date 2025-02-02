@@ -31,6 +31,7 @@ THEMES = [
     "Mint-Y-Red",
     "Mint-Y-Sand",
     "Mint-Y-Teal",
+    "Mint-Y-Sage"
 
     "Mint-Y-Dark",
     "Mint-Y-Dark-Aqua",
@@ -42,6 +43,7 @@ THEMES = [
     "Mint-Y-Dark-Red",
     "Mint-Y-Dark-Sand",
     "Mint-Y-Dark-Teal",
+    "Mint-Y-Sage"
 ]
 
 # gather values
