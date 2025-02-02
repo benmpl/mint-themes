@@ -43,7 +43,7 @@ THEMES = [
     "Mint-Y-Dark-Red",
     "Mint-Y-Dark-Sand",
     "Mint-Y-Dark-Teal",
-    "Mint-Y-Sage"
+    "Mint-Y-Dark-Sage"
 ]
 
 # gather values
