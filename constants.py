@@ -15,6 +15,7 @@ x_hex_colors["Red"] = "#c15b58"
 x_hex_colors["Sand"] = "#c8ac69"
 x_hex_colors["Teal"] = "#5aaa9a"
 x_hex_colors["Sage"] = "#647c64"
+x_hex_colors["Lavender"] = "#967bb6"
 
 X_RGB_ACCENTS = ["172, 205, 138", "#accd8a"]
 
@@ -30,6 +31,7 @@ x_rgb_colors["Red"] = "193, 91, 88"
 x_rgb_colors["Sand"] = "200, 172, 105"
 x_rgb_colors["Teal"] = "90, 170, 154"
 x_rgb_colors["Sage"] = "100, 124, 100"
+x_rgb_colors["Lavender"] = "59, 48, 71"
 
 
 # Mint-Y
@@ -68,3 +70,6 @@ y_hex_colors2["Teal"] = "#199ca8"
 
 y_hex_colors1["Sage"] = "#647c64"
 y_hex_colors2["Sage"] = "#647c64"
+
+y_hex_colors1["Lavender"] = "#967bb6"
+y_hex_colors2["Lavender"] = "#967bb6"

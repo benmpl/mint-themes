@@ -91,7 +91,7 @@ if len(sys.argv) < 2:
     usage()
 else:
     color_variation = sys.argv[1]
-    if not color_variation in ["Aqua", "Blue", "Grey", "Orange", "Pink", "Purple", "Red", "Sand", "Teal", "Sage", "All"]:
+    if not color_variation in ["Aqua", "Blue", "Grey", "Orange", "Pink", "Purple", "Red", "Sand", "Teal", "Sage", "Lavender", "All"]:
         usage()
 
 # Mint-Y variations

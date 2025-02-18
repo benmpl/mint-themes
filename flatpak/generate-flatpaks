@@ -31,7 +31,8 @@ THEMES = [
     "Mint-Y-Red",
     "Mint-Y-Sand",
     "Mint-Y-Teal",
-    "Mint-Y-Sage"
+    "Mint-Y-Sage",
+    "Mint-Y-Lavender",
 
     "Mint-Y-Dark",
     "Mint-Y-Dark-Aqua",
@@ -43,7 +44,8 @@ THEMES = [
     "Mint-Y-Dark-Red",
     "Mint-Y-Dark-Sand",
     "Mint-Y-Dark-Teal",
-    "Mint-Y-Dark-Sage"
+    "Mint-Y-Dark-Sage",
+    "Mint-Y-Dark-Lavender"
 ]
 
 # gather values
@@ -51,7 +53,7 @@ THEMES = [
 VERSION = subprocess.run(["dpkg-parsechangelog", "--file", "../debian/changelog", "--show-field", "Version"], capture_output=True, text=True).stdout.strip("\n ")
 
 # we don't always 'git tag', search the commit message for the matching version
-escaped_ver = VERSION.replace(".", "\.")
+escaped_ver = VERSION.replace(".", "\\.")
 COMMIT_HASH = subprocess.run(["git", "log", "--grep", escaped_ver, "--pretty=oneline"], capture_output=True, text=True).stdout.split()[0]
 
 with open("build.json.in") as f:
